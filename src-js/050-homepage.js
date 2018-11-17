@@ -6,7 +6,6 @@ window.MYAPP = window.MYAPP || {}
 
   // NOTE: this "foo" is trapped inside the anonymous function that wraps this entire file
   function foo () {
-    // homepage "foo" function is here
     console.log('I am the "foo" function for the homepage.')
   }
 

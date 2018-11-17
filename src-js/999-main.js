@@ -2,9 +2,10 @@
 window.MYAPP = window.MYAPP || {}
 
 ;(function () {
-  // NOTE: referencing "$" inside this module prevents standard from yelling at us
-  var $ = window.jQuery
-  var MYAPP = window.MYAPP
+  // NOTE: referencing "$" and "MYAPP" inside this module prevents standard from
+  // yelling at us about unreferenced variables
+  const $ = window.jQuery
+  const MYAPP = window.MYAPP
 
   function globalInit () {
     console.info('Intializing the application now.')
@@ -15,6 +16,6 @@ window.MYAPP = window.MYAPP || {}
     MYAPP.initMaps()
   }
 
-  // run globalInit when the DOM is ready
+  // run globalInit when the DOM is ready using jQuery
   $(globalInit)
 })()

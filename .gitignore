@@ -3,3 +3,6 @@ node_modules
 
 # ignore the build JS file
 public/js/app.js
+
+# ignore .diff files
+*.diff
