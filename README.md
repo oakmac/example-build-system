@@ -2,12 +2,7 @@
 
 This repo contains a simple build + travis-ci setup appropriate for a simple website.
 
-It uses only [npm scripts] with some basic tools like [UglifyJS], [StandardJS] and [watchify].
-
-[npm scripts]:https://scotch.io/tutorials/using-npm-as-a-build-tool
-[UglifyJS]:https://github.com/mishoo/UglifyJS
-[StandardJS]:https://standardjs.com/
-[watchify]:https://github.com/browserify/watchify
+It uses only [npm scripts] with some basic tools like [UglifyJS], [StandardJS] and [onchange].
 
 #### First-time Setup
 
@@ -31,3 +26,8 @@ npm run build
 ## License
 
 [ISC License](LICENSE.md)
+
+[npm scripts]:https://scotch.io/tutorials/using-npm-as-a-build-tool
+[UglifyJS]:https://github.com/mishoo/UglifyJS2/tree/harmony
+[StandardJS]:https://standardjs.com/
+[onchange]:https://github.com/Qard/onchange
