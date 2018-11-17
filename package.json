@@ -8,10 +8,11 @@
     "url": "git://github.com/oakmac/example-build-system.git"
   },
   "devDependencies": {
-    "standard": "12.0.1"
+    "standard": "12.0.1",
+    "uglify-js": "3.4.9"
   },
   "scripts": {
-    "build": "cat src-js/*.js > public/js/app.js",
+    "build": "uglifyjs src-js/*.js --compress --output public/js/app.js",
     "test": "standard src-js/*.js"
   },
   "license": "ISC"

@@ -3,7 +3,7 @@ window.MYAPP = window.MYAPP || {}
 
 ;(function () {
   // NOTE: referencing "$" inside this module prevents standard from yelling at us
-  const $ = window.jQuery
+  var $ = window.jQuery
 
   function globalInit () {
     console.info('Intializing the application now.')
