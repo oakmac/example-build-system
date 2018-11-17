@@ -10,8 +10,6 @@ window.MYAPP = window.MYAPP || {}
     console.log('I am the "foo" function for the header.')
   }
 
-  alert('asdfasdzzzf')
-
   function initHeader () {
     console.info('Intializing the header now.')
     foo()
