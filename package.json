@@ -1,11 +1,11 @@
 {
-  "author": "Chris Oakman <chris@oakmac.com> (http://chrisoakman.com/)",
-  "name": "example-build-system",
+  "author": "Lanzhen Wang (lanzhenwang9@gmail.com",
+  "name": "Shop-your-movies",
   "description": "An example build system for a simple website.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oakmac/example-build-system.git"
+    "url": ""
   },
   "devDependencies": {
     "onchange": "5.1.0",
@@ -17,5 +17,12 @@
     "test": "standard src-js/*.js",
     "watch": "onchange --initial 'src-js/*.js' -- npm run build"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  }
 }
